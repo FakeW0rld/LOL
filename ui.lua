@@ -7240,17 +7240,17 @@ p:CreateTopbarButton("Close","x",function()
 g(p.UIElements.Main,0.35,{Position=UDim2.new(0.5,0,0.5,0)},Enum.EasingStyle.Quint,Enum.EasingDirection.Out):Play()
 p:Dialog{
 
-Title="Snow中心",
-Content="是否要关闭?",
+Title="SkyHub",
+Content="关闭窗口",
 Buttons={
 {
-Title="手滑",
+Title="取消",
 
 Callback=function()end,
 Variant="Secondary",
 },
 {
-Title="关闭",
+Title="确定",
 
 Callback=function()p:Close():Destroy()end,
 Variant="Primary",
